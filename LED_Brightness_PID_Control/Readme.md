@@ -12,23 +12,23 @@ First Generate a step response for the system:
 
 ## Saving the sensor value for the step response using PuTTY or RealTerm:
 	![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/f4db8974-6fe5-418c-8f70-60b302dcb682)
-#### Starting UART communication using RealTerm:
-	Ref: https://miscircuitos.com/plot-real-time-signal-coming-arduino/
-	![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/616df685-c2bc-49b8-90c5-5178efd5d9ba)
+#### 1. Starting UART communication using RealTerm:
+Ref: https://miscircuitos.com/plot-real-time-signal-coming-arduino/
+![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/616df685-c2bc-49b8-90c5-5178efd5d9ba)
 
-	We open the Capture tab and select the appropriate settings:
+#### 2. We open the Capture tab and select the appropriate settings:
 ![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/f00efcc0-77a0-4799-85d4-cfe4435ff868)
 
 
 
-The data is saved in the designated location and file:
-	![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/22fbc7a9-ee52-47a6-afe0-b07c26001fb2)
-	![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/13cfce42-2a39-496a-a306-c2f627dc5167)
+#### 3. The data is saved in the designated location and file:
+![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/22fbc7a9-ee52-47a6-afe0-b07c26001fb2)
+![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/13cfce42-2a39-496a-a306-c2f627dc5167)
 
 
-Finding the approximate curve manually (initial guess):
-	We can model this setup as a 1st order with dead time  (PT1-elemet + Time Shift)
-			![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/be702169-3e4f-4ff9-a358-87783ba899f1)
+#### 4. Finding the approximate curve manually (initial guess):
+We can model this setup as a 1st order with dead time  (PT1-elemet + Time Shift)
+![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/be702169-3e4f-4ff9-a358-87783ba899f1)
 
   Thus there are three important constants:
 	Gain K (Rise in Output Value by Rise in Input Value)
