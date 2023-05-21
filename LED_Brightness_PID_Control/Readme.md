@@ -24,7 +24,8 @@ Ref: https://miscircuitos.com/plot-real-time-signal-coming-arduino/
 ![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/13cfce42-2a39-496a-a306-c2f627dc5167)
 
 ### 2. Finding the approximate curve manually (initial guess):
-We can model this setup as a 1st order with dead time  (PT1-elemet + Time Shift) 
+We can model this setup as a 1st order with dead time  (PT1-elemet + Time Shift), 
+
 ![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/be702169-3e4f-4ff9-a358-87783ba899f1)
 
   Thus there are three important constants:
@@ -39,17 +40,17 @@ We can model this setup as a 1st order with dead time  (PT1-elemet + Time Shift)
 	
 ## 3. Simulating the initla model in MatLab and Comparing it with the experimental data:
 ### Generating the Transfer Function in with above calculated constants:
-		![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/76da910f-9e64-4c9d-b33a-6cb9b9c88bdd)
+![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/76da910f-9e64-4c9d-b33a-6cb9b9c88bdd)
 
 ### Modeling on Simulink:
-		![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/58deb3d6-c40b-4814-bee4-54d456cfcb82)
+![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/58deb3d6-c40b-4814-bee4-54d456cfcb82)
 
 #### Scope:
-		![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/b063786f-7a06-48a3-97c8-1d90aa974e33)
+![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/b063786f-7a06-48a3-97c8-1d90aa974e33)
 
 
 ### Comparing the data with experimental:
-		![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/5c5f320e-fdb0-4fa6-a3dd-9e7b974cf24c)
+![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/5c5f320e-fdb0-4fa6-a3dd-9e7b974cf24c)
 
 	
 ## 4. Using non-linear Curve fitting using Python SciPy Library:
