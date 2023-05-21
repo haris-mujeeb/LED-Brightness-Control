@@ -1,10 +1,10 @@
 # Components used:
-| Name   | Function |  
-|----------|:-------------:|
-| NodeMCU ESP8266 | Microcontroller | 
-| KY-018 | Photoresistor Module | 
-| White LED |  |
-| Jumper wires |  |
+| Name   | 
+|----------|
+| NodeMCU ESP8266 |
+| KY-018 |
+| White LED | 
+| Jumper wires | 
 
 # Procedure:
 First Generate a step response for the system:
@@ -78,11 +78,4 @@ Ref: https://www.youtube.com/watch?v=1H-SdMuJXTk&t=237s
 		
 #### Result:
 ![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/8de5d8f5-6d84-4724-8d5f-dce54cae89ee)
-
-
-
-
-
-
-![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/4b4e40ac-1bb3-4274-a9b0-087ba1ac2195)
 
