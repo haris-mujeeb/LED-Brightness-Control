@@ -16,10 +16,10 @@ We save the value for the step response using PuTTY or RealTerm:
 
 	Starting UART communication using RealTerm:
 	Ref: https://miscircuitos.com/plot-real-time-signal-coming-arduino/
-		![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/616df685-c2bc-49b8-90c5-5178efd5d9ba)
+	![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/616df685-c2bc-49b8-90c5-5178efd5d9ba)
 
 	We open the Capture tab and select the appropriate settings:
-		![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/f00efcc0-77a0-4799-85d4-cfe4435ff868)
+	![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/f00efcc0-77a0-4799-85d4-cfe4435ff868)
 
 
 
@@ -34,33 +34,31 @@ Finding the approximate curve manually (initial guess):
 			![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/be702169-3e4f-4ff9-a358-87783ba899f1)
 
   Thus there are three important constants:
-	|Gain K |	(151-1003)/(1024-0) = -0.832 	|Rise in Output Value by Rise in Input Value|
-	|Time Constant Tau|	1003 - (1003-151)*0.9 = 236.2| 	It takes 5 Tau to go from initial point to 90% steady state value. |
-	| 		|5*Tau = 20ms (from data)| |
-	|	|Tau = 4ms| |
-	|Dead Time T|	0ms|	|
+	Gain K (Rise in Output Value by Rise in Input Value)
+		K = (151-1003)/(1024-0) = -0.832
+	Time Constant Tau ( It takes 5 Tau to go from initial point to 90% steady state value.)
+		5*Tau = 1003 - (1003-151)*0.9 = 236.2  
+		5*Tau = 20ms (from data)
+		  Tau = 4ms
+	Dead Time T = 0ms (from data)
 	
 	
-Generating the Transfer Function:
+Simulating the initla model in MatLab and Comparing it with the experimental data:
+	Generating the Transfer Function in with above calculated constants:
+		![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/76da910f-9e64-4c9d-b33a-6cb9b9c88bdd)
+
+	Modeling on Simulink:
+		![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/58deb3d6-c40b-4814-bee4-54d456cfcb82)
+
+		Scope:
+		![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/b063786f-7a06-48a3-97c8-1d90aa974e33)
 
 
-
-
-Modeling on Simulink:
-
-
-
-Scope:
-
-
-
-
-Comparing the data with experimental:
-
+	Comparing the data with experimental:
+		![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/5c5f320e-fdb0-4fa6-a3dd-9e7b974cf24c)
 
 	
-	
-Using non-linear Curve fitting with python:
+Using non-linear Curve fitting using Python SciPy Library:
 	Ref: https://www.youtube.com/watch?v=1H-SdMuJXTk&t=237s
 	
 	We find following constant with least square method:
