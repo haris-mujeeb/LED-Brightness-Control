@@ -54,7 +54,7 @@ We can model this setup as a 1st order with dead time  (PT1-elemet + Time Shift)
 
 	
 ## 4. Using non-linear Curve fitting using Python SciPy Library:
-	Ref: https://www.youtube.com/watch?v=1H-SdMuJXTk&t=237s
+Ref: https://www.youtube.com/watch?v=1H-SdMuJXTk&t=237s
 	
 ### We find following constant with least square method:
 ![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/a2e0e538-4717-4743-b96e-165b21fbd1f1)
