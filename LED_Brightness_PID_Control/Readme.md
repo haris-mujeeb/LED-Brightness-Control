@@ -1,9 +1,9 @@
 Components used:
-| Tables   |      Are      |  Cool |
+| Name   |      function      |  Cool |
 |----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+| NodeMCU ESP8266 | microcontroller | $1600 |
+| KY-018 | Photoresistor Module | $12 |
+| White LED |  |    $1 |
 
 
 Generate a step response for the system:
