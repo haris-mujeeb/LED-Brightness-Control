@@ -11,7 +11,7 @@ First Generate a step response for the system:
 ![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/6beb5dbb-e0ed-41a1-bb5d-83fff4fe60bd)
 
 ## 1. Saving the sensor value for the step response using PuTTY or RealTerm:
-	![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/f4db8974-6fe5-418c-8f70-60b302dcb682)
+![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/f4db8974-6fe5-418c-8f70-60b302dcb682)
 #### Starting UART communication using RealTerm:
 Ref: https://miscircuitos.com/plot-real-time-signal-coming-arduino/
 ![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/616df685-c2bc-49b8-90c5-5178efd5d9ba)
@@ -24,7 +24,7 @@ Ref: https://miscircuitos.com/plot-real-time-signal-coming-arduino/
 ![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/13cfce42-2a39-496a-a306-c2f627dc5167)
 
 ### 2. Finding the approximate curve manually (initial guess):
-We can model this setup as a 1st order with dead time  (PT1-elemet + Time Shift)
+We can model this setup as a 1st order with dead time  (PT1-elemet + Time Shift) 
 ![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/be702169-3e4f-4ff9-a358-87783ba899f1)
 
   Thus there are three important constants:
