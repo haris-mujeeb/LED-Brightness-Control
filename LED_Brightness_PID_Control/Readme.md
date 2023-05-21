@@ -1,4 +1,4 @@
-### Components used:
+# Components used:
 | Name   | Function |  
 |----------|:-------------:|
 | NodeMCU ESP8266 | Microcontroller | 
@@ -6,26 +6,23 @@
 | White LED |  |
 | Jumper wires |  |
 
-### Procedure:
+# Procedure:
 First Generate a step response for the system:
 ![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/6beb5dbb-e0ed-41a1-bb5d-83fff4fe60bd)
 
-We save the value for the step response using PuTTY or RealTerm:
+## Saving the sensor value for the step response using PuTTY or RealTerm:
 	![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/f4db8974-6fe5-418c-8f70-60b302dcb682)
-
-
-	Starting UART communication using RealTerm:
+#### Starting UART communication using RealTerm:
 	Ref: https://miscircuitos.com/plot-real-time-signal-coming-arduino/
 	![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/616df685-c2bc-49b8-90c5-5178efd5d9ba)
 
 	We open the Capture tab and select the appropriate settings:
-	![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/f00efcc0-77a0-4799-85d4-cfe4435ff868)
+![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/f00efcc0-77a0-4799-85d4-cfe4435ff868)
 
 
 
 The data is saved in the designated location and file:
 	![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/22fbc7a9-ee52-47a6-afe0-b07c26001fb2)
-
 	![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/13cfce42-2a39-496a-a306-c2f627dc5167)
 
 
