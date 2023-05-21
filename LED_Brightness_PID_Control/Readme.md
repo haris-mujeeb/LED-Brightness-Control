@@ -1,9 +1,9 @@
 Components used:
 | Name   |      function      
 |----------|:-------------:|
-| NodeMCU ESP8266 | Microcontroller | $1600 |
-| KY-018 | Photoresistor Module | $12 |
-| White LED |  |    $1 |
+| NodeMCU ESP8266 | Microcontroller | 
+| KY-018 | Photoresistor Module | 
+| White LED |  |
 
 
 Generate a step response for the system:
