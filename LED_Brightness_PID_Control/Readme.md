@@ -1,5 +1,5 @@
 Components used:
-| Name   |      function      
+| Name   | Function |  
 |----------|:-------------:|
 | NodeMCU ESP8266 | Microcontroller | 
 | KY-018 | Photoresistor Module | 
