@@ -1,7 +1,7 @@
 Components used:
-| Name   |      function      |  Cool |
-|----------|:-------------:|------:|
-| NodeMCU ESP8266 | microcontroller | $1600 |
+| Name   |      function      
+|----------|:-------------:|
+| NodeMCU ESP8266 | Microcontroller | $1600 |
 | KY-018 | Photoresistor Module | $12 |
 | White LED |  |    $1 |
 
