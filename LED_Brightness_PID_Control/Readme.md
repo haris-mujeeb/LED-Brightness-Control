@@ -28,14 +28,14 @@ We can model this setup as a 1st order with dead time  (PT1-elemet + Time Shift)
 
 ![image](https://github.com/haris-mujeeb/Digital-Control-Projects/assets/57053470/be702169-3e4f-4ff9-a358-87783ba899f1)
 
-  Thus there are three important constants:
-	**Gain K** (Rise in Output Value by Rise in Input Value)<br />
-		**K** = (151-1003)/(1024-0) = -0.832<br /><br />
-	**Time Constant Tau** ( It takes 5 Tau to go from initial point to 90% steady state value.)<br />
-		5*Tau = 1003 - (1003-151)*0.9 = 236.2  <br />
-		5*Tau = 20ms (from data)<br />
-		  **Tau** = 4ms<br /><br />
-	**Dead Time T** = 0ms (from data)<br />
+  Thus there are three important constants: <br />
+	|**Gain K** (Rise in Output Value by Rise in Input Value)<br />
+		||**K** = (151-1003)/(1024-0) = -0.832<br /><br />
+	|**Time Constant Tau** ( It takes 5 Tau to go from initial point to 90% steady state value.)<br />
+		||5*Tau = 1003 - (1003-151)*0.9 = 236.2  <br />
+		||5*Tau = 20ms (from data)<br />
+		 || **Tau** = 4ms<br /><br />
+	|**Dead Time T** = 0ms (from data)<br />
 	
 	
 ## 3. Simulating the initla model in MatLab and Comparing it with the experimental data:
