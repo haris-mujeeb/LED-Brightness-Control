@@ -4,6 +4,7 @@ Components used:
 | NodeMCU ESP8266 | Microcontroller | 
 | KY-018 | Photoresistor Module | 
 | White LED |  |
+| Jumper wires |  |
 
 
 Generate a step response for the system:
